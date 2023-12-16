@@ -44,3 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Create .env file at root folder of this application
+create new variable with key value pair
+REACT_APP_MAP_API_KEY="<Google_MAP_API_KEY>"

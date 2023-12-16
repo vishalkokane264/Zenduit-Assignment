@@ -1,0 +1,40 @@
+.toggle-button-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  height: 48px;
+  .toggle-container {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-direction: row;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    .toggle-button {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      height: 48px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .active-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 48px;
+      background-color: #2188d9;
+      color: white;
+    }
+    .inactive-button {
+      background-color: #fff;
+      height: 48px;
+      color: #000;
+    }
+  }
+}
