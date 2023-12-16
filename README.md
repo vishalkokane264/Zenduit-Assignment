@@ -1,10 +1,23 @@
-# Getting Started with Create React App
+# Getting Started with ZenduIT project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `Environment Setup`
+
+Create .env file at root folder of this application\
+Create new variable with key value pair
+
+### `REACT_APP_MAP_API_KEY=<Google_MAP_API_KEY>`
+
+Install dependencies using command\
+
+### `npm install`
+
+Run project using Command
 
 ### `npm start`
 
@@ -44,7 +57,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-Create .env file at root folder of this application
-create new variable with key value pair
-REACT_APP_MAP_API_KEY="<Google_MAP_API_KEY>"
