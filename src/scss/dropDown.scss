@@ -1,0 +1,25 @@
+.dropdown-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  height: 48px;
+  width: 100%;
+  .select {
+    width: 100%;
+    padding: 0px 15px;
+    -webkit-appearance: none;
+    font-size: 16px;
+    border: 1px solid #b8b9bc;
+    line-height: 20px;
+    border-radius: 4px;
+    background: url("./../Assets/Arrow\ -\ Down\ 2.svg");
+    background-position: calc(100% - 10px);
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+  .option {
+    font-size: 16px;
+    line-height: 20px;
+    height: 25px;
+  }
+}

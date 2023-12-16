@@ -1,0 +1,92 @@
+.top-navigation {
+  box-sizing: border-box;
+  position: relative;
+  // min-height: 72px;
+  min-height: 76px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2188d9;
+  padding: 0px 32px 0px 32px;
+  flex-wrap: wrap;
+  .title-box {
+    padding: 13px 32px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    letter-spacing: 2;
+    color: #fff;
+  }
+  .menu-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 76px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    .menu {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      padding: 24px 8px 24px 16px;
+      .menu-icon {
+      }
+      .menu-title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #fff;
+      }
+    }
+    .menu-active {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      padding: 24px 8px 24px 16px;
+      background-color: #1773bb;
+      .menu-icon {
+      }
+      .menu-title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #fff;
+      }
+    }
+    :hover {
+      background-color: #1773bb;
+    }
+  }
+  .action-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    .menu {
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      padding: 24px 8px 24px 16px;
+      height: 26px;
+      width: 26px;
+      .menu-icon {
+        position: relative;
+      }
+      :hover {
+        background-color: #1773bb;
+      }
+    }
+  }
+}

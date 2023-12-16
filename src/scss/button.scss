@@ -1,0 +1,29 @@
+.button-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+
+  button {
+    padding: 5px 10px;
+    display: flex;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    .icon {
+    }
+    .button-text {
+      font-size: 16px;
+      line-height: 20.8px;
+      font-weight: 500;
+      color: #2188d9;
+    }
+  }
+  :hover {
+    background-color: #f2f4f8;
+    border-radius: 4px;
+  }
+}

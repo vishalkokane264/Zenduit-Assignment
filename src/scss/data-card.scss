@@ -1,0 +1,68 @@
+.data-card-wrapper {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 144px;
+  border: 1px solid #b8b9bc;
+  border-radius: 4px;
+  // background-color: #fff;
+  .title-box {
+    display: flex;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .title {
+      font-size: 18px;
+      line-height: 25.2px;
+      font-weight: 700;
+      color: #060c1b;
+    }
+    .activity-status {
+      position: relative;
+      padding: 0px 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: 27px;
+      gap: 8px;
+      border-radius: 4px;
+      .dot {
+        position: relative;
+        font-size: 30px;
+      }
+      .chip-text {
+        font-size: 14px;
+        line-height: 18.2px;
+        font-weight: 500;
+      }
+    }
+  }
+  .row2 {
+    .row2-style {
+      color: #b8b9bc;
+    }
+    .data-style {
+      color: #060c1b;
+    }
+    .date-style {
+      color: #ff3d00;
+    }
+    .text-style {
+      font-size: 16px;
+      line-height: 20.8px;
+      font-weight: 500;
+    }
+  }
+}
